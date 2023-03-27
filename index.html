@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <title>Frontend Mentor | Interactive card details form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-sm-center" id="first">	
+        <main class="col-sm-12 col-xl-8 offset-xl-2" id="main">
+          <div class="col-md-5 col-xl-4" id="one">
+            <div id="mobile">
+              <img src="./images/bg-main-mobile.png" id="bgm" alt="bg-mobile">
+              <div id="card-back">
+                <img src="./images/bg-card-back.png" alt="card-back">
+                <p id="cvccard">000</p>
+              </div>
+              <div id="card-front">
+                <img src="./images/bg-card-front.png" alt="card-front">
+                <p id="cardlogo"><img src="./images/card-logo.svg" alt="card-logo"></p>
+                <p id="numcard">0000 0000 0000 0000</p>
+                <p id="namecard">Jane Appleseed</p>
+                <p id="expcard">00/00</p>
+              </div>
+            </div>
+            <div id="desktop">
+              <img src="./images/bg-main-desktop.png" id="bgd" alt="bg-desktop">
+              <div id="card-front">
+                <img src="./images/bg-card-front.png" alt="card-front">
+                <p id="cardlogo"><img src="./images/card-logo.svg" alt="card-logo"></p>
+                <p id="numcard">0000 0000 0000 0000</p>
+                <p id="namecard">Jane Appleseed</p>
+                <p id="expcard">00/00</p>
+              </div>
+              <div id="card-back">
+                <img src="./images/bg-card-back.png" alt="card-back">
+                <p id="cvccard">000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 offset-md-0 col-xl-4" id="two">
+            <form id="form" action="" method="post" autocomplete="off">
+              <div>
+                <p><label>Cardholder Name</label></p>
+                <p><input type="text" id="cardname" placeholder="e.g. Jane Appleseed" /> <br><small></small></p>
+              </div>
+              <div>
+                <p><label>Card Number</label></p>
+                <p><input type="text" id="cardnumber" placeholder="e.g. 1234 5678 9123 0000" /> <br><small></small></p>
+              </div>
+              <div>
+                <p><label>Exp. Date (MM/YY)<span class="cvc">CVC</span></label></p>
+                <div id="carddate">
+                  <p><input type="number" max="12" min="1" id="expmonth" placeholder="MM" /> <br> <small></small></p>
+                  <p><input type="number" max="28" min="23" id="expyear" placeholder="YY" /> <br> <small></small></p>
+                  <p><input type="text" id="cardcvc" placeholder="e.g. 123" /> <br> <small class="cardcvc"></small></p>
+                </div>                
+              </div>
+              <button type="submit" id="submit">Confirm</button>
+            </form>
+            <div id="confirm">
+              <img src="./images/icon-complete.svg" alt="icon-complete">
+              <p class="thank">Thank you!</p>
+              <p class="message">We've added your card details</p>
+              <button type="submit" id="btn">Continue</button>
+            </div>  
+          </div>
+        </main>
+      </div>
+      <div class="row justify-content-sm-center" id="second">
+        <footer class="col-sm-12" id="footer">
+          <div class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="">Antonio Sala</a>.</p>
+          </div>
+        </footer>
+      </div> 
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
