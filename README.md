@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive card details form
 
-<img src="./images/desktop-preview.jpg" alt="desktop-preview" />
+<img src="./images/desktop-design.jpg" alt="desktop-preview" />
 
 ## Table of contents
 
@@ -27,9 +27,9 @@ Your users should be able to:
 
 ### Screenshot
 
-<img src="./images/screenshot-desktop.png" alt="screenshot-desktop">
+<p><img src="./images/screenshot-desktop.png" alt="screenshot-desktop">
 <img src="./images/screenshot-mobile1.png" alt="screenshot-mobile1">
-<img src="./images/screenshot-mobile2.png" alt="screenshot-mobile2">
+<img src="./images/screenshot-mobile2.png" alt="screenshot-mobile2"></p>
 
 ### Links
 
